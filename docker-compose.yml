@@ -1,6 +1,6 @@
 services:
   termix:
-    image: ghcr.io/termix-ssh/termix:latest
+    image: ghcr.io/lukegus/termix:latest
     restart: unless-stopped
     volumes:
       - /opt/termix/data:/app/data
