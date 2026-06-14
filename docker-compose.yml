@@ -1,0 +1,9 @@
+services:
+  termix:
+    image: ghcr.io/termix-ssh/termix:latest
+    restart: unless-stopped
+    volumes:
+      - /opt/termix/data:/app/data
+    environment:
+      - NODE_ENV=production
+
