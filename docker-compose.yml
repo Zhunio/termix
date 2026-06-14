@@ -6,4 +6,5 @@ services:
       - /opt/termix/data:/app/data
     environment:
       - NODE_ENV=production
+      - PORT=8080
 
